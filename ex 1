@@ -1,0 +1,14 @@
+import java.util.Scanner
+public class ReverseString{
+public static void main(String[] args){
+System.out.println("Enter string to reverse:");
+String input=Scanner.nextline();
+Scanner.close();
+String reversed=reverseString(input);
+System.out.println("Reversed string:"+reversed);
+}
+public static string ReverseString(String str){
+char[] chars=str.toCharArray();
+int left =0;
+int right=chars.leght-1;
+while
